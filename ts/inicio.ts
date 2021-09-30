@@ -39,6 +39,7 @@ const $:JQueryStatic=jquery;
             event.preventDefault()
             event.stopPropagation()
           }
+          // Cuando se valida todo el formulario se oculta y muestra una alerta
           else {
             $("#formulario").hide();
             alert("Hemos recibido sus datos. Pronto nos estaremos comunicando con usted.");
